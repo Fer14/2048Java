@@ -1,0 +1,7 @@
+Arreglado hacer undo despues de load. En el load de game metido borrar el array de estados.
+
+Antes el execute de loadcommand y storecommand imprimian las IOExceptions y devolvian false.
+Ahora en vez de eso crean una CommandExecuteException y la lanzan, y ya no hace falta que devuelvan false.
+
+El javadoc está hecho, no da warnings ni errors pero seguramente haya mucho texto mal o falten @returns de executes
+o algo. Miratelo bien pls.

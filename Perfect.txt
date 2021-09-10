@@ -1,0 +1,8 @@
+This file stores a saved 2048 game
+
+32	16	8	4
+64	128	256	512
+0	0	2048	1024
+0	0	0	0
+
+2	3866384	original

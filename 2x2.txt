@@ -1,0 +1,6 @@
+This file stores a saved 2048 game
+
+3	2
+0	2
+
+2	7	fib
